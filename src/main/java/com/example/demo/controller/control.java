@@ -12,10 +12,11 @@ public class control {
     public String sayHello() {
         return "Hello from BridgeLabz";
     }
-    @GetMapping("/user")
-    public String sayHello(@RequestParam(value = "name") String name) {
-        return "Hello " + name + "!";
-	    }
+
+    @GetMapping("/add")
+    public String add() {
+        return "added from BridgeLabz";
+    }
 
     
 }
